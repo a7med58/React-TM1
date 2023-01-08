@@ -1,14 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { OverviewWarper, Title, Descrip, ByWrite } from "./Style";
 export default function Overview({ icon, title, description, by }) {
   return (
-    <div>
+    <OverviewWarper>
       <div>
-        <FontAwesomeIcon icon={icon} />
-        <p>{title}</p>
-        <p>{description}</p>
-        <h3>{by}</h3>
+        <FontAwesomeIcon color="#D3756B" icon={icon} />
       </div>
-    </div>
+      <Title>{title}</Title>
+      <Descrip>{description}</Descrip>
+      <ByWrite>{by}</ByWrite>
+    </OverviewWarper>
   );
 }
