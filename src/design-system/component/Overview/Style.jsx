@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import themes from "../../config";
 
 export const OverviewWarper = styled("div")`
   label: OverviewWarper;
@@ -12,7 +13,7 @@ export const Title = styled("h1")`
 `;
 export const Descrip = styled("h3")`
   label: Descrip;
-  color: red;
+  color: ${themes.gray};
 `;
 export const ByWrite = styled("h2")`
   label: ByWrite;

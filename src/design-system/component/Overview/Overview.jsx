@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { OverviewWarper, Title, Descrip, ByWrite } from "./Style";
+import { ByWrite, Descrip, OverviewWarper, Title } from "./Style";
 export default function Overview({ icon, title, description, by }) {
   return (
     <OverviewWarper>
