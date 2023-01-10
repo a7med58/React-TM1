@@ -8,13 +8,13 @@ export const OverviewWarper = styled("div")`
 
 export const Title = styled("h1")`
   label: Title;
-  color: white;
+  color: black;
 `;
 export const Descrip = styled("h3")`
   label: Descrip;
-  color: white;
+  color: red;
 `;
 export const ByWrite = styled("h2")`
   label: ByWrite;
-  color: white;
+  color: burlywood;
 `;
