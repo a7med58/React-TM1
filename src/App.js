@@ -2,7 +2,7 @@ import CreativeSpeakers from "./design-system/component/CreativeSpeakers";
 import dataSpeaker from "./design-system/component/CreativeSpeakers/DataSpeaker";
 import Overview from "./design-system/component/Overview";
 import dataOverview from "./design-system/component/Overview/DataOverview";
-
+import './design-system/main.css';
 function App() {
   return (
     <div className="App">
@@ -15,6 +15,7 @@ function App() {
               companyname={item.companyname}
               nationality={item.nationality}
               alt={item.alt}
+              img={item.img}
             />
           );
         })}
