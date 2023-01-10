@@ -14,6 +14,7 @@ function App() {
               key={item.id}
               companyname={item.companyname}
               nationality={item.nationality}
+              alt={item.alt}
             />
           );
         })}
