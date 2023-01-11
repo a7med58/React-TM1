@@ -1,5 +1,5 @@
 import img2 from "../../../../src/shared/assets/speakers/unnamed.png";
-import img1 from '../../../../src/shared/assets/speakers/zoho-logo.png';
+import img1 from "../../../../src/shared/assets/speakers/zoho-logo.png";
 const dataSpeaker = [
   {
     id: 1,
