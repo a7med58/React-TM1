@@ -18,3 +18,16 @@ export const Navtitle = styled("span")`
   label: Navtitle;
   font-size: 1.5rem;
 `;
+export const Link = styled("a")`
+  label: Link;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-decoration: none;
+`;
+export const LinksWarper = styled("div")`
+  label: LinksWarper;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+`;
