@@ -1,24 +1,24 @@
-const links = [
+export default function  links (){ 
+  return [
   {
-    navLink: "./",
+    navLink: "/",
     navText: "Home",
   },
   {
-    navLink: "./",
+    navLink: "/speakers",
     navText: "Speakers",
   },
   {
-    navLink: "./",
+    navLink: "/programs",
     navText: "Programs",
   },
   {
-    navLink: "./",
+    navLink: "/overView",
     navText: "OverView",
   },
   {
-    navLink: "./",
+    navLink: "/logins",
     navText: "Logins",
   },
 ];
-
-export default links;
+}

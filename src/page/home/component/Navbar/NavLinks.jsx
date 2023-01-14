@@ -1,10 +1,9 @@
 import React from "react";
-import themes from "../../../../design-system/config";
 import { Link } from "./Style";
 
-export default function NavLinks({ navLink, navText, active }) {
+export default function NavLinks({ navLink, navText, color }) {
   return (
-    <Link color={active ? themes.active : ""} href={navLink}>
+    <Link style ={{ color:color}} href={navLink}>
       {navText}
     </Link>
   );
