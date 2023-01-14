@@ -28,3 +28,4 @@ export const DivTow = styled("p")`
   label: DivTow;
   width:  50%;
 `;
+

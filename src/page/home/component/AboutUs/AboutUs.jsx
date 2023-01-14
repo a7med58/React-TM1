@@ -1,6 +1,6 @@
 import React from 'react';
+import aboutus from "../../../../../src/shared/assets/aboutus.jpg";
 import { AboutUsWrapper, DivOne, DivTow, P, Span } from './Style';
-import aboutus from  "../../../../../src/shared/assets/aboutus.jpg";
 export default function AboutUs() {
   return (
     <div className="container">
