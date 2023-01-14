@@ -3,8 +3,6 @@ import CreativeSpeakers from "./design-system/component/CreativeSpeakers";
 import dataSpeaker from "./design-system/component/CreativeSpeakers/DataSpeaker";
 import OurProgram from "./design-system/component/OurProgram";
 import dataProgram from "./design-system/component/OurProgram/DataProgram";
-import Overview from "./design-system/component/Overview";
-import dataOverview from "./design-system/component/Overview/DataOverview";
 import "./design-system/main.css";
 import Home from "./page/home/Home";
 function App() {
@@ -29,19 +27,7 @@ function App() {
           );
         })}
       </div>
-      <div style={{ display: "flex" }}>
-        {dataOverview.map((item) => {
-          return (
-            <Overview
-              key={item.id}
-              icon={item.icon}
-              title={item.title}
-              description={item.description}
-              by={item.by}
-            />
-          );
-        })}
-      </div>
+   
       <div style={{ display: "flex" }}>
         {dataProgram.map((item) => {
           return (

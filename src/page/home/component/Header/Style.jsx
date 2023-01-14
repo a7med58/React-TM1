@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import header from "../../../../shared/assets/header/h3.png";
 export const HeaderWarper = styled("div")`
   label: HeaderWarper;
-  height: 100vh;
+  height: 600px;
   padding: 20px 0;
   text-align: center;
   background-size: cover;

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { ByWrite, Descrip, OverviewWarper, Title } from "./Style";
-export default function Overview({ icon, title, description, by }) {
+export default function OverviewComponent({ icon, title, description, by }) {
   return (
     <OverviewWarper>
       <div>

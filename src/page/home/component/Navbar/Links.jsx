@@ -20,5 +20,13 @@ export default function  links (){
     navLink: "/logins",
     navText: "Logins",
   },
+  {
+    navLink: "/about",
+    navText: "About Us",
+  },
+  {
+    navLink: "/contactus",
+    navText: "Contact Us",
+  },
 ];
 }
