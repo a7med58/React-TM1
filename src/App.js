@@ -1,6 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import CreativeSpeakers from "./design-system/component/CreativeSpeakers";
-import dataSpeaker from "./design-system/component/CreativeSpeakers/DataSpeaker";
 import OurProgram from "./design-system/component/OurProgram";
 import dataProgram from "./design-system/component/OurProgram/DataProgram";
 import "./design-system/main.css";
@@ -14,20 +12,6 @@ function App() {
           </Routes>
       </BrowserRouter>
       <p>Welcome In CRM Application</p>
-      <div style={{ display: "flex" }}>
-        {dataSpeaker.map((item) => {
-          return (
-            <CreativeSpeakers
-              key={item.id}
-              companyname={item.companyname}
-              nationality={item.nationality}
-              alt={item.alt}
-              img={item.img}
-            />
-          );
-        })}
-      </div>
-   
       <div style={{ display: "flex" }}>
         {dataProgram.map((item) => {
           return (

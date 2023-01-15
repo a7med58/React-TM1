@@ -5,7 +5,6 @@ export const NavbarWarper = styled("section")`
   padding: 1rem 0;
   background-color: #090707;
   color: white;
-  position: fixed;
   width: 100%;
 `;
 
