@@ -12,10 +12,11 @@ export default function OurProgram({img,alt,time,location,title,by,artical}) {
       <div>
         <IconWarper>
           <div>
-            <FontAwesomeIcon icon={faClock} /> {time}
+            <FontAwesomeIcon size="xs" icon={faClock} /> {time}
           </div>
           <div>
-            <FontAwesomeIcon icon={faMapMarked} /> {by}
+            <FontAwesomeIcon size= "xs" icon={faMapMarked} /> 
+            <span>{location}</span>
             </div>
         </IconWarper>
         <h2>{title}</h2>

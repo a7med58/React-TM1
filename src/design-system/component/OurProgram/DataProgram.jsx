@@ -1,6 +1,6 @@
 import img1 from "../../../../src/shared/assets/profile/prof.jpg";
 
-const dataProgram = [
+export const tab1 = [
   {
     id: 1,
     img: img1,
@@ -18,8 +18,82 @@ const dataProgram = [
     time: "09:00 PM",
     location: "Room 207",
     title: "Senior Manager",
-    by: "Ahmed",
+    by: "Mohamed",
+    artical: "CRM Stractures",
+  },
+  {
+    id: 3,
+    img: img1,
+    alt: "profile1",
+    time: "09:00 PM",
+    location: "Room 207",
+    title: "Senior Manager",
+    by: "Ezz",
     artical: "CRM Stractures",
   },
 ];
-export default dataProgram;
+export const tab2 = [
+  {
+    id: 4,
+    img: img1,
+    alt: "profile1",
+    time: "09:00 PM",
+    location: "Room 207",
+    title: "Senior Manager",
+    by: "Sara",
+    artical: "CRM Stractures",
+  },
+  {
+    id: 5,
+    img: img1,
+    alt: "profile1",
+    time: "09:00 PM",
+    location: "Room 207",
+    title: "Senior Manager",
+    by: "Sooad",
+    artical: "CRM Stractures",
+  },
+  {
+    id: 6,
+    img: img1,
+    alt: "profile1",
+    time: "09:00 PM",
+    location: "Room 207",
+    title: "Senior Manager",
+    by: "Sameh",
+    artical: "CRM Stractures",
+  },
+];
+export const tab3 = [
+  {
+    id: 7,
+    img: img1,
+    alt: "profile1",
+    time: "09:00 PM",
+    location: "Room 207",
+    title: "Senior Manager",
+    by: "Belal",
+    artical: "CRM Stractures",
+  },
+  {
+    id: 8,
+    img: img1,
+    alt: "profile1",
+    time: "09:00 PM",
+    location: "Room 207",
+    title: "Senior Manager",
+    by: "Fatma",
+    artical: "CRM Stractures",
+  },
+  {
+    id: 9,
+    img: img1,
+    alt: "profile1",
+    time: "09:00 PM",
+    location: "Room 207",
+    title: "Senior Manager",
+    by: "Mariem",
+    artical: "CRM Stractures",
+  },
+];
+

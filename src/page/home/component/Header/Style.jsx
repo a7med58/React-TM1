@@ -12,13 +12,13 @@ export const HeaderWarper = styled("div")`
 
 export const H3 = styled("h3")`
   label: H3;
-  color: black;
+  color: Red;
   font-size: 2rem;
   padding-top: 250px;
 `;
 export const H1 = styled("h1")`
   label: H1;
-  color: black;
+  color: Red;
   font-size: 2.8rem;
 `;
 
