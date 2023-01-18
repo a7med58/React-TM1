@@ -2,11 +2,10 @@ import styled from "@emotion/styled";
 
 export const NavbarWarper = styled("section")`
   label: NavbarWarper;
-  padding: 1.5rem 0;
+  padding: 1.2rem 0;
   background-color: #090707;
   color: white;
   width: 100%;
-  position: fixed;
   z-index:2;
 `;
 
