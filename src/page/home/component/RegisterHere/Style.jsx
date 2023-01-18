@@ -6,7 +6,7 @@ export const RegisterWarper = styled("section")`
   background-size: cover;
   background-repeat: no-repeat;
   background: url(${reg}) fixed;
-  height: 350px;
+  height: 400px;
   padding: 4rem 0 2rem 0;
 `;
 export const FormWarper = styled("div")`
