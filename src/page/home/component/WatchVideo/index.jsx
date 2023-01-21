@@ -1,1 +1,1 @@
-export {default} from "./WatchVideo";
+export { default } from "./WatchVideo";
